@@ -1,23 +1,23 @@
-# usesimplelocalstorage
+# use-simple-localstorage
 
 Un hook de React ligero para manejar valores en `localStorage` de manera sencilla y tipada.
 
 ## Instalación
 
 ```bash
-npm install usesimplelocalstorage
+npm install use-simple-localstorage
 # o
-yarn add usesimplelocalstorage
+yarn add use-simple-localstorage
 # o
-pnpm add usesimplelocalstorage
+pnpm add use-simple-localstorage
 # o
-bun install usesimplelocalstorage
+bun install use-simple-localstorage
 ```
 
 ## Uso
 
 ```jsx
-import { useSimpleLocalStorage } from "usesimplelocalstorage"
+import { useSimpleLocalStorage } from "use-simple-localstorage"
 
 function App() {
   const [name, setName] = useSimpleLocalStorage < string > "username";
