@@ -17,17 +17,17 @@ bun install use-simple-localstorage
 ## Uso
 
 ```jsx
-import { useSimpleLocalStorage } from "use-simple-localstorage"
+import { useSimpleLocalStorage } from 'use-simple-localstorage'
 
 function App() {
-  const [name, setName] = useSimpleLocalStorage < string > "username";
+  const [name, setName] = useSimpleLocalStorage <string> 'username';
 
   return (
     <div>
       <p>Nombre guardado: {name}</p>
       <input
-        type="text"
-        value={name ?? ""}
+        type='text'
+        value={name ?? ''}
         onChange={(e) => setName(e.target.value)}
       />
     </div>
