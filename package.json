@@ -1,7 +1,7 @@
 {
   "name": "usesimplelocalstorage",
   "type": "module",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@types/bun": "latest"
   },

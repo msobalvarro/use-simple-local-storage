@@ -10,6 +10,8 @@ npm install use-simple-local-storage
 yarn add use-simple-local-storage
 # o
 pnpm add use-simple-local-storage
+# o
+bun install use-simple-local-storage
 ```
 
 ## Uso
@@ -43,7 +45,7 @@ useSimpleLocalStorage<T>(key: string): [T | null, (val: T) => void]
 
 - `T`: tipo del valor a guardar (ejemplo: `string`, `number`, `User`, etc).
 
-## EJEMPLOS
+## Ejemplos
 
 Guardar un número
 
